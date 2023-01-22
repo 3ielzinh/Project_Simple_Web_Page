@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Lei do Versionamento</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="./images/A Lei do Versionamento.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <h1> A <font color=red>Lei</font> do Versionamento</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#dicas">Dicas</a></li>
+                    <li><a href="#var">Variáveis de Ambiente</a></li>
+                    <li><a href="#git">Comandos GIT</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <img class="img-front" src="./images/direito-e-tecnologia.png" alt="Imagem de Direito com Tecnologia"/>
+                <div>
+                    <h2>Direito e Tecnologia</h2>
+                    <p>Olá, meu nome é Gabriel, tenho 24 anos e amo a área de tecnologia, entretanto, a vida me direcionou para uma área totalmente diferente. Possuo formação em Direito e atualmente estou estudando para ser Desenvolver Full Stack Python, na EBAC.</p>
+                    <p>Não é que eu não goste da área de Direito, creio que todo homem médio deveria possuir os conhecimentos de seus direitos e deveres, mas, sempre que penso no futuro vem uma imagem totalmente diferente do mundo de terno e gravata.</p>
+                    <p>Sempre que é possível participo de masterclass, encontros, workshops e outros meios, visando encontrar pessoas de áreas diferentes, que também estão incluídos nesse mundo de tecnologia, para ter uma troca de conhecimento e tentar ampliar meu networking.</p>
+                    <p>A grande verdade é que eu tenho um medo a ser vencido, o medo de não me encaixar na área de tecnologia por ter uma formação não correlata ao mundo DEV. Então, com ajuda da EBAC e outros cursos voltados à área, eu me dedico diariamente, para provar para mim mesmo que sou extremamente capaz de conseguir me inserir neste mundo.</p>
+                    <p>Pensando nisso, decidi compartilhar algumas dicas que tenho anotado em meus resumos, que me ajudaram e me ajudam diariamente no meu desenvolvimento WEB.</p>
+                </div>
+            </div>
+        </section>
+        <section id="dicas">
+            <div class="container">
+                <div>
+                    <h2>Dicas para quem está aprendendo</h2>
+                    <p>As dicas a seguir são para pessoas que estão iniciando no mundo de programação como eu e estão pensando em acelerar algumas ações na hora de versionar, espero que goste.</p>
+                </div>
+            </div>
+        </section>
+        <section id="var">
+            <div class="container">
+                <div> 
+                    <h3>Abrindo o GitBash pelo CMD</h3><br>
+                    <p>Siga o passo a passo:</p>
+                    <ul>
+                        <li>Vá no menu inicializar e digite "Variáveis de Ambiente" e de um <kbd>ENTER</kbd>;</li>
+                        <li>Abrirá uma tela de Propriedades do Sistema, clique em "Variáveis de Ambiente";</li>
+                        <li>Abrirá uma tela de Variáveis de Ambiente, onde temos Variáveis de usuário para "Nome do seu usuário" e Variáveis de Sistema";</li>
+                        <li>Dentro de Variáveis de usuário para "seu usuário", clique em "Path" e depois em "Editar...";</li>
+                        <li>Dentro do Editar a variável de ambiente (tome muito cuidado para não excluir ou alterar nada dessa janela), clique em Novo e digite "C:\Program Files\Git\".</li>
+                    </ul><br>
+                    <p>Prontinho, após configurar a viável de ambiente, você já pode inicializar o GitBash através do atalho <kbd>Windows</kbd> + <kbd>R</kbd> e digitando "git bash".</p>
+                    <p>OBS¹: Abrirá uma janela preta do CMD também, ainda não sei para que ela serve, mas até hoje não alterou o meu versionamento.</p>
+                    <p>OBS²: Não da para fechar ela sem fechar o GitBash junto.</p><br>
+                </div>
+                <img class="varambient" src="./images/varam.png" alt="Imagem da Variável de Ambiente">
+            </div>
+        </section>
+        <section id="git">
+            <div class="container">
+                <img class="versionando" src="./images/GIT.png" alt="Imagem de versionamento e do VSCode">
+                <div>   
+                    <h3>Comandos do GIT</h3><br>
+                    <p>Vamos supor que você acabou de abrir seu git bash e precisa ir para uma pasta onde estão seus projetos e dentro dela você precise criar uma pasta, bem como, o index.html e o main.css para começar a desenvolver algum projeto específico, por fim, precisa abrir o VSCode para começar o desenvolvimento.</p>
+                    <pre>
+                        <p>Utilize
+                            <code>
+                                cd Desktop/Projetos (mover para pasta projetos, localizada na área de trabalho);
+                                mkdir "nome da pasta" (cria um diretório(pasta), para seu novo desenvolvimento);
+                                cd "nome da pasta" (move-se para pasta criada);
+                                echo > index.html (cria o index.html);
+                                echo > main.css (cria o main.css);
+                                code . (abre o VSCode, já dentro do diretório com o index.html e o com o main.css).
+                            </code>
+                        </p>
+                    </pre>  
+                    <p>Como dito anteriormente, essas são dicas básicas que no início eu achei muito interessante e que até hoje me poupa tempo na hora de desenvolver alguma coisa.</p>                  
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contatos</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale comigo</h3>
+                        <form>
+                            <input type="text" placeholder="Seu Nome" required/>
+                            <input type="email" placeholder="Seu E-mail" required/>
+                            <input type="tel" placeholder="Seu Telefone (opcional)"/>
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button> 
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Me acompanhe</h3>
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-me no Instagram">
+                                    <img src="./images/instagram.png" alt="Logo do Instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-me no Linkedin">
+                                    <img src="./images/linkedin.png" alt="Logo do Linkedin">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-me no Facebook">
+                                    <img src="./images/facebook.png" alt="Logo do Facebook">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                    <h3>Venha até mim</h3>
+                    <p>Rua JavaScript, nº 124, Vila HTML - Brasília-DF</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; A Lei do Versionamento - Todos os direitos reservados - 2023
+            </p>
+            <button><a href="#home">Voltar ao Topo</a></button>
+        </div>
+    </footer>
+</body>
+</html>
